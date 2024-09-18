@@ -1,0 +1,17 @@
+body {
+    background-color: lightcyan;
+}
+
+#form {
+    width: 500px;
+    background-color: aliceblue;
+}
+
+#labels {
+    font-family: sans-serif;
+}
+
+#table-items {
+    width: 800px;
+    padding: 0dvh;
+}
