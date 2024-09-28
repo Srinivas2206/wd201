@@ -34,7 +34,7 @@ const todoList = () => {
         toDisplayableList
     };
 };
-
+/*
 const todos = todoList();
 
 const formattedDate = d => {
@@ -76,3 +76,6 @@ let itemsDueLater = todos.dueLater()
 let formattedItemsDueLater = todos.toDisplayableList(itemsDueLater)
 console.log(formattedItemsDueLater)
 console.log("\n\n")
+*/
+
+module.exports = todoList
