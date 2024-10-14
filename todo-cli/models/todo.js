@@ -44,11 +44,7 @@ module.exports = (sequelize, DataTypes) => {
     static async overdue() {
       // FILL IN HERE TO RETURN OVERDUE ITEMS
       const today = new Date().toISOString().split('T')[0];
-      const all = await Todo.findAll({
-        where: {
-          completed: false,
-        }
-      })
+      const all = await Todo.findAll()
       return all.filter((todo) => todo.dueDate < today);
     }
 
